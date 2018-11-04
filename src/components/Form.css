@@ -1,0 +1,51 @@
+.parent {
+   width:60%;
+   height:300px;
+   display: block;
+   margin: auto;
+   margin-top: 50px;
+   background: #5332a0;
+   animation-name: fadeIn;
+   animation-duration: 5s;
+}
+.child {
+    position: absolute;
+    margin-left:30px;
+    width:30%;
+    height: 50%;
+    border:2px solid black;
+    background: white;
+    box-shadow: 2px 2px 2px 2px;
+    margin-top:-40px!important;
+}
+.data-form {
+    margin-top: 40px;
+}
+.data-form input {
+  width:80%;
+  display: block;
+  margin: auto;
+  border: 1px solid #5332a0;
+  box-shadow: 1px 1px 1px 1px;
+  margin-top:15px !important;
+  font-size: 20px;
+  padding: 5px;
+}
+.data-form button {
+border: 2px solid #5332a0;
+font-size: 15px;
+padding:4px;
+width:20%;
+height:40px;
+display: block;
+margin: auto;
+border-radius: 5px;
+cursor: pointer;
+}
+.data-form button:hover{
+ background: #cec1ee;
+}
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+ }

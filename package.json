@@ -4,12 +4,12 @@
   "private": true,
   "dependencies": {
     "@material-ui/core": "^3.3.1",
-    "express": "^4.16.4",
+    "express": "^4.22.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-material-ui-form-validator": "^2.0.2",
-    "react-scripts": "2.0.5",
-    "web3": "^1.0.0-beta.36"
+    "react-scripts": "5.0.1",
+    "web3": "^1.10.4"
   },
   "scripts": {
     "start": "node server.js",
